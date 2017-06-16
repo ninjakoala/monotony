@@ -1,4 +1,4 @@
-(defproject com.ninjakoala/monotony "1.2.0"
+(defproject com.ninjakoala/monotony "1.2.1-SNAPSHOT"
   :description "Keep things flat. Redirects timbre to tools.logging"
   :url "https://github.com/ninjakoala/monotony"
   :license {:name "Eclipse Public License"

@@ -8,5 +8,5 @@
 
 (defn redirect-logging
   []
-  (timbre/set-config! [:appenders] {:slf4j {:enabled? true
-                                            :fn log-fn}}))
+  (timbre/set-config! {:appenders {:slf4j {:enabled? true
+                                           :fn log-fn}}}))

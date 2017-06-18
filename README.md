@@ -1,6 +1,4 @@
-```clojure
-[com.ninjakoala/monotony "1.0"]
-```
+[![Clojars Project](https://img.shields.io/clojars/v/com.ninjakoala/monotony.svg)](https://clojars.org/com.ninjakoala/monotony) [![Build Status](https://travis-ci.org/ninjakoala/monotony.svg?branch=master)](https://travis-ci.org/ninjakoala/monotony)
 
 ```clojure
 (ns yourapp

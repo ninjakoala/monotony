@@ -2,9 +2,9 @@
 
 ```clojure
 (ns yourapp
-  (:require [ninjakoala.monotony :refer [redirect-logging]]))
+  (:require [ninjakoala.monotony :refer [redirect-logging!]]))
 
-(redirect-logging)
+(redirect-logging!)
 ```
 
 This will go ahead and replace all timbre appenders with a single appender which uses `clojure.tools.logging/log` instead.

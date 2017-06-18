@@ -6,7 +6,7 @@
   [{:keys [level message ns throwable] :as appender-args-map}]
   (log/log ns level throwable message))
 
-(defn redirect-logging
+(defn redirect-logging!
   []
   (timbre/set-config! {:appenders {:slf4j {:enabled? true
                                            :fn log-fn}}}))

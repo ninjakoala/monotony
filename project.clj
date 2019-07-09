@@ -4,12 +4,9 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[com.taoensso/timbre "4.10.0"]
-                 [org.clojure/clojure "1.8.0"]
-                 [org.clojure/tools.logging "0.4.0"]
-                 [org.slf4j/slf4j-api "1.7.25"]]
-  :profiles {:dev {:dependencies [[midje "1.9.0"]]
-                   :plugins [[lein-midje "3.2.1"]]}}
-  :aliases {"test" ["midje"]}
+                 [org.clojure/clojure "1.10.1"]
+                 [org.clojure/tools.logging "0.4.1"]
+                 [org.slf4j/slf4j-api "1.7.26"]]
   :release-tasks [["vcs" "assert-committed"]
                   ["change" "version" "leiningen.release/bump-version" "release"]
                   ["vcs" "commit"]
